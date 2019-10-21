@@ -3,5 +3,5 @@ spring:
     config:
       server:
         git:
-          uri: https://bitbucket.org/fiap69aoj/repo-config
+          uri: https://github.com/fiap-69aoj/netflix-configurations
           searchPaths: '/{application}/{profile}'
