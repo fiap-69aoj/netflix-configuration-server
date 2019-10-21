@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://bitbucket.org/fiap69aoj/repo-config
+          searchPaths: '/{application}/{profile}'
