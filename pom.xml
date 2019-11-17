@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.netflix</groupId>
-    <artifactId>netflix-configuration-server</artifactId>
+    <artifactId>configuration-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>netflix-configuration-server</name>
+    <name>configuration-server</name>
     <description>Project</description>
 
     <properties>
