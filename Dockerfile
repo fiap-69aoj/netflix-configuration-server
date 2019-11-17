@@ -5,6 +5,6 @@ LABEL source="https://github.com/fiap-69aoj/netflix-configuration-server" \
 
 ADD ./target/configuration-server-0.0.1-SNAPSHOT.jar configuration-server.jar
 
-EXPOSE 9092
+EXPOSE 9093
 
 ENTRYPOINT ["java","-jar", "-Dspring.profiles.active=prod", "/configuration-server.jar"]
